@@ -1,5 +1,5 @@
 import Table from "../components/Table"
-import AgregarMonto from "../components/agregarMonto"
+// import AgregarMonto from "../components/agregarMonto"
 
 export default function Home() {
   return (
