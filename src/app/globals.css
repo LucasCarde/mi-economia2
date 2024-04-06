@@ -1,0 +1,13 @@
+body,
+html {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #344955;
+
+}
+
+.inicio{
+  padding: 5%;
+  background-color: #344955;
+}
