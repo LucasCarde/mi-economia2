@@ -17,7 +17,7 @@ export default function AccessibleTable() {
     >
       <Table sx={{ minWidth: 650 }} aria-label="caption table">
         <TableHead>
-          <TableRow style={{ backgroundColor: '#BC7FCD' }}>
+          <TableRow style={{ backgroundColor: '#496989' }}>
             <TableCell>Descripcion</TableCell>
             <TableCell align="right">Monto</TableCell>
             <TableCell align="right">Fecha</TableCell>
