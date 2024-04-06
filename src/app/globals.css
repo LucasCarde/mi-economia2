@@ -3,11 +3,11 @@ html {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: #A8CD9F;
+    background-color: #31363F;
 
 }
 
 .inicio{
-  padding: 5%;
-  background-color: #A8CD9F;
+  padding: 2%;
+  background-color: #31363F;
 }

@@ -35,7 +35,7 @@ export async function addToCollection(descripcion, monto, fecha, donde) {
     // Ensures that the client will close when you finish/error
     await client.close();
   }
-}
+};
 
 export async function findCollection() {
   
@@ -87,7 +87,7 @@ export async function deleteMany() {
     // Close the connection after the operation completes
     await client.close();
   }
-}
+};
 
 
 

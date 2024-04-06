@@ -12,12 +12,10 @@ const rows = await findCollection();
 
 export default function AccessibleTable() {
   return (
-    <TableContainer component={Paper} 
-    //style={{ backgroundColor: '#50727B' }}
-    >
+    <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="caption table">
         <TableHead>
-          <TableRow style={{ backgroundColor: '#496989' }}>
+          <TableRow style={{ backgroundColor: '#77B0AA' }}>
             <TableCell>Descripcion</TableCell>
             <TableCell align="right">Monto</TableCell>
             <TableCell align="right">Fecha</TableCell>
