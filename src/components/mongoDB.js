@@ -72,6 +72,7 @@ export async function findCollection() {
   }
 };
 
+
 // export async function deleteMany() {
 //   try {
 //     const database = client.db("miEconomia");

@@ -1,3 +1,5 @@
+/* GENERALES */
+
 body,
 html {
     display: flex;
@@ -10,6 +12,11 @@ html {
 .inicio{
   padding: 2%;
   background-color: #31363F;
+}
+
+/* MONTO TOTAL */
+.montoTotal{
+  background-color: #77B0AA;
 }
 
 /* FORM */
@@ -36,6 +43,7 @@ html {
   background-color: #31363F;
   color: #77B0AA;
   border: solid 1px #31363F;
+  margin: auto 1%;
 }
 
 
