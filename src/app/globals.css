@@ -11,3 +11,31 @@ html {
   padding: 2%;
   background-color: #31363F;
 }
+
+/* FORM */
+
+.form-monto{
+  background-color: #77B0AA;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  padding: 1%;
+  min-height: max-content
+}
+
+.input-form{
+  border-radius: 5px;
+  float: left;
+  margin: auto 1%;
+  padding: 10px;
+  border: solid 1px #31363F;
+}
+
+.form-submit{
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #31363F;
+  color: #77B0AA;
+  border: solid 1px #31363F;
+}
+
+

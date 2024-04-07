@@ -1,4 +1,3 @@
-
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const { fetchExternalImage } = require('next/dist/server/image-optimizer');
 const uri = "mongodb+srv://admin-Carde:Cardenau2@mieconomia.ijvo2hx.mongodb.net/?retryWrites=true&w=majority&appName=miEconomia";
