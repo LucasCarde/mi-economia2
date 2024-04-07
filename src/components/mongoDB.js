@@ -72,21 +72,21 @@ export async function findCollection() {
   }
 };
 
-export async function deleteMany() {
-  try {
-    const database = client.db("miEconomia");
-    const plata = database.collection("plata");
-    /* Delete all documents that match the specified regular
-    expression in the title field from the "movies" collection */
-    const query = {  descripcion: { $regex: "Arreglo tele" }  };
-    const result = await plata.deleteMany(query);
-    // Print the number of deleted documents
-    console.log("Deleted " + result.deletedCount + " documents");
-  } finally {
-    // Close the connection after the operation completes
-    await client.close();
-  }
-};
+// export async function deleteMany() {
+//   try {
+//     const database = client.db("miEconomia");
+//     const plata = database.collection("plata");
+//     /* Delete all documents that match the specified regular
+//     expression in the title field from the "movies" collection */
+//     const query = {  descripcion: { $regex: "Arreglo tele" }  };
+//     const result = await plata.deleteMany(query);
+//     // Print the number of deleted documents
+//     console.log("Deleted " + result.deletedCount + " documents");
+//   } finally {
+//     // Close the connection after the operation completes
+//     await client.close();
+//   }
+// };
 
 
 
